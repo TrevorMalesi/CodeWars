@@ -1,0 +1,16 @@
+
+D
+java:S2440"/Remove this instantiation of "compareTriplets".(¾„˜R
+P
+java:S2209"5Change this instance-reference to a static reference.(˜Ù·‚ùÿÿÿÿ
+A
+java:S1128"+Remove this unused import 'java.sql.Array'.(Õø‹ù
+F
+java:S5960"+Remove this assertion from production code.(˜Ù·‚ùÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(çÔ‹¶þÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ŸÊÕ¦ýÿÿÿÿ
+n
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ä¤ˆ9
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Úåžò
