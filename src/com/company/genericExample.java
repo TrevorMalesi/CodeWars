@@ -23,7 +23,20 @@ public class genericExample {
         personName.add("Joe");
         personName.add("Ian");
         System.out.println("First name: "+personName.get((0)));
-
+        Test test=new Test();
+        test.setAge(100);
+        Integer a=test.getAge();
+        System.out.println(a);
     }
 
+}
+class Test{
+    private Integer age;
+
+    public Integer getAge() {
+        return age;
+    }
+    public void setAge(Integer age){
+        this.age=age;
+    }
 }
