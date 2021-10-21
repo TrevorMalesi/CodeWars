@@ -14,20 +14,13 @@ public class javaStream {
         students.add(new Student("Eli",23,55));
         students.add(new Student("Zealot",21,45));
         students.add(new Student("Rose",20,70));
-        students.forEach(student -> {
-            System.out.println(student.name);
-        });
-        /*Get students whose mark is greater than 70
-         */
-        List<Student> passedMark=new ArrayList<>();
-        passedMark=students.stream().filter(student->student.mark>=70).collect(Collectors.toList());
-        passedMark.forEach(student->{
+
+        List<Student> sortedList=students.stream().filter(student->student.mark>=70).sorted(Comparator.comparing(student->student.name)).collect(Collectors.toList());
+        sortedList.forEach(student -> {
             System.out.println(student.name+" "+student.mark);
         });
-        /*
-        Sorted list
-         */
     }
+
     static class Student{
         private String name;
         private Integer age;
